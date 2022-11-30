@@ -5,7 +5,7 @@ import json
 #Connect to IBM Watson
 authenticator = IAMAuthenticator('...')
 speech_to_text = SpeechToTextV1(authenticator=authenticator)
-speech_to_text.set_service_url('https://api.eu-gb.speech-to-text.watson.cloud.ibm.com/instances/76b86ff6-34ac-42f9-b3ab-32d553a097c8')
+speech_to_text.set_service_url('https://api.eu-gb.speech-to-text.watson.cloud.ibm.com/instances/...')
 
 
 #Select the data path
