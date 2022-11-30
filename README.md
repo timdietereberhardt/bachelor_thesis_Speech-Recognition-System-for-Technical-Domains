@@ -1,0 +1,1 @@
+# bachelor_thesis_Speech-Recognition-System-for-Technical-Domains
