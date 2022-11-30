@@ -3,7 +3,7 @@ from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 import json
 
 #Connect to IBM Watson
-authenticator = IAMAuthenticator('QXrx5LX8roi2lR6oT00mUI20AO4bccSSdOQ7PLt87FIv')
+authenticator = IAMAuthenticator('...')
 speech_to_text = SpeechToTextV1(authenticator=authenticator)
 speech_to_text.set_service_url('https://api.eu-gb.speech-to-text.watson.cloud.ibm.com/instances/76b86ff6-34ac-42f9-b3ab-32d553a097c8')
 
