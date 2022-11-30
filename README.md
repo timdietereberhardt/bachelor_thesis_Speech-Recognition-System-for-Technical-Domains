@@ -18,7 +18,7 @@ with the results of the technical systems.
 
 Unfortunately, the data cannot be published according to German data protection law.
 
-###data
+### data
 comparison_data: The test data used for comparing the systems and testing the best model
 converted_Warden_data: The Train, Val and Test MFCC Warden data V. 2 in npy format
 labeled_own_data: The labeled own data in WAV format, divided into: Train, Val & Test
@@ -26,11 +26,11 @@ orginal_data: The original collection of data without labeling
 Testdaten_Python_Skripts: For the test of the data augmentation etc. these data were used
 
 
-###models
+### models
 final_model: The best model in h5 format
 test_Warden_model: The model trained on the Warden for the Transfer Learning Method test.
 
-###notebooks
+### notebooks
 	1. development NN, LSTM and GRU with the own data
 	2. hyperparameter optimization variant 1 & 2
 	3. development GRU with Warden data
@@ -38,20 +38,20 @@ test_Warden_model: The model trained on the Warden for the Transfer Learning Met
 	5. test of the best model
 
 
-###python_scripts
+### python_scripts
 Prior to development, the methods were tested on smaller datasets. The py data includes these tests.
 
-###system_comparison_results
+### system_comparison_results
 Excel file with the results of the tests of the other systems and the test person.
 
-###test_results
+### test_results
 Output of the test of the best model in csv format
 
-###thesis
+### thesis
 Digital pdf form of the thesis
 
 
-####Required Python libraries:
+#### Required Python libraries:
 Keras, TensorFlow, Librosa, Scikit Learn, Numpy, MatPlotLib, os, pylon, json,
 pandas, wave, context lib
 
